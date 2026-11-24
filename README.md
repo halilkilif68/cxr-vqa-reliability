@@ -1,4 +1,4 @@
-# Beyond Accuracy: reliability audit of template-based chest X-ray question answering
+# Beyond Accuracy: A Reliability Evaluation Framework for Template-Based Chest X-ray Question Answering
 
 Code, split identifiers and result tables for the paper *Beyond Accuracy: A Reliability Evaluation Framework
 for Template-Based Chest X-ray Question Answering* (BLIP, ViLT and CLIP fine-tuned with LoRA on MIMIC-CXR and VinDr-CXR).
@@ -63,9 +63,9 @@ Bootstrap intervals use 500 cluster resamples; the last digit of an interval can
 | Table 4 (performance) | micro/macro AUC: `results/compare_headline.csv`, `results/compare_auc_bootstrap.csv`; threshold metrics: `results/threshold_metrics.csv` |
 | Table 5, Figure 5 (per disease) | `results/*_per_disease_full.csv`, `results/per_disease_merged.csv` |
 | Table 6 (by source) | `results/*_headline.csv` (`auc_mimic`, `auc_vindr`, Text prior row) |
-| Table 7 (label-signed shift) | `results/signed_dP_ci.csv` |
+| Table 7 (label-signed shift) | `results/signed_dP_ci.csv`, `results/*_visual_dependence.csv` (Wilcoxon, dz) |
 | Table 8 (patch shuffling) | `results/compare_shuffle_bootstrap.csv` |
-| Table 9, Figure 4 (black image) | per-pair predictions (`prob_black`), `analysis/make_figures.py` |
+| Table 9, Figure 4 (black image) | `results/black_image_summary.csv` (mean P(black), range across diseases, AUC with CI), `results/black_image_prob_by_disease.csv`, `results/*_bootstrap_micro_auc.csv`; figure: `analysis/make_figures.py` |
 | Table 10 (IoU, pointing hit) | `results/*_iou_summary.csv`, `results/*_iou_detail.csv` |
 | Table 11 (Full / Black / Prior) | `results/compare_auc_bootstrap.csv`, `results/*_bootstrap_micro_auc.csv` |
 | Table 12 (Wilcoxon) | `results/compare_abs_error_wilcoxon.csv` |
