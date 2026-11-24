@@ -1,4 +1,4 @@
-# Beyond Accuracy: reliability audit of template-based chest X-ray question answering
+# Beyond Accuracy: A Reliability Evaluation Framework for Template-Based Chest X-ray Question Answering
 
 Code, split identifiers and result tables for the paper *Beyond Accuracy: A Reliability Evaluation Framework
 for Template-Based Chest X-ray Question Answering* (BLIP, ViLT and CLIP fine-tuned with LoRA on MIMIC-CXR and VinDr-CXR).
