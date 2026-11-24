@@ -1,0 +1,61 @@
+{
+ "model": "blip",
+ "smoke": false,
+ "best_epoch": 10,
+ "n_test_pairs": 125713,
+ "n_test_images": 10014,
+ "torch": "2.9.1+cu128",
+ "transformers": "5.23.0",
+ "peft": "0.21.3",
+ "headline": [
+  {
+   "condition": "Full",
+   "micro_auc": 0.9083,
+   "macro_auc": 0.8789,
+   "auc_mimic": 0.8479,
+   "auc_vindr": 0.955
+  },
+  {
+   "condition": "Noise",
+   "micro_auc": 0.6766,
+   "macro_auc": 0.495,
+   "auc_mimic": 0.6213,
+   "auc_vindr": 0.7442
+  },
+  {
+   "condition": "Black",
+   "micro_auc": 0.6896,
+   "macro_auc": 0.5,
+   "auc_mimic": 0.6357,
+   "auc_vindr": 0.7562
+  },
+  {
+   "condition": "Text prior",
+   "micro_auc": 0.763,
+   "macro_auc": 0.5322,
+   "auc_mimic": 0.664,
+   "auc_vindr": 0.8227
+  },
+  {
+   "condition": "Shuffle-32",
+   "micro_auc": 0.7359,
+   "macro_auc": 0.6819,
+   "auc_mimic": 0.6971,
+   "auc_vindr": 0.8053
+  },
+  {
+   "condition": "Shuffle-16",
+   "micro_auc": 0.7149,
+   "macro_auc": 0.631,
+   "auc_mimic": 0.6731,
+   "auc_vindr": 0.7829
+  },
+  {
+   "condition": "Shuffle-8",
+   "micro_auc": 0.6947,
+   "macro_auc": 0.5024,
+   "auc_mimic": 0.6505,
+   "auc_vindr": 0.7604
+  }
+ ]
+}

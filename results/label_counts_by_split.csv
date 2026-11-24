@@ -1,0 +1,169 @@
+split,source,disease,n_defined,n_pos
+train,mimic,Aortic enlargement,0,0
+train,mimic,Atelectasis,68267,12337
+train,mimic,Calcification,0,0
+train,mimic,Cardiomegaly,69545,11977
+train,mimic,Clavicle fracture,0,0
+train,mimic,Consolidation,69879,2670
+train,mimic,Edema,67535,6747
+train,mimic,Emphysema,0,0
+train,mimic,Enlarged PA,0,0
+train,mimic,ILD,0,0
+train,mimic,Infiltration,0,0
+train,mimic,Lung Opacity,69972,14177
+train,mimic,Lung cavity,0,0
+train,mimic,Lung cyst,0,0
+train,mimic,Mediastinal shift,0,0
+train,mimic,Nodule/Mass,0,0
+train,mimic,Pleural effusion,69616,14201
+train,mimic,Pleural thickening,0,0
+train,mimic,Pneumothorax,70841,2889
+train,mimic,Pulmonary fibrosis,0,0
+train,mimic,Rib fracture,0,0
+train,mimic,Other lesion,0,0
+train,mimic,COPD,0,0
+train,mimic,Lung tumor,0,0
+train,mimic,Pneumonia,65710,5017
+train,mimic,Tuberculosis,0,0
+train,mimic,Other diseases,0,0
+train,mimic,No finding,71107,27315
+train,vindr,Aortic enlargement,11250,2325
+train,vindr,Atelectasis,11250,135
+train,vindr,Calcification,11250,350
+train,vindr,Cardiomegaly,11250,1748
+train,vindr,Clavicle fracture,11250,19
+train,vindr,Consolidation,11250,264
+train,vindr,Edema,11250,9
+train,vindr,Emphysema,11250,63
+train,vindr,Enlarged PA,11250,100
+train,vindr,ILD,11250,299
+train,vindr,Infiltration,11250,455
+train,vindr,Lung Opacity,11250,986
+train,vindr,Lung cavity,11250,36
+train,vindr,Lung cyst,11250,29
+train,vindr,Mediastinal shift,11250,114
+train,vindr,Nodule/Mass,11250,623
+train,vindr,Pleural effusion,11250,789
+train,vindr,Pleural thickening,11250,1526
+train,vindr,Pneumothorax,11250,72
+train,vindr,Pulmonary fibrosis,11250,1227
+train,vindr,Rib fracture,11250,74
+train,vindr,Other lesion,11250,870
+train,vindr,COPD,11250,29
+train,vindr,Lung tumor,11250,224
+train,vindr,Pneumonia,11250,683
+train,vindr,Tuberculosis,11250,566
+train,vindr,Other diseases,11250,3285
+train,vindr,No finding,11250,7954
+val,mimic,Aortic enlargement,0,0
+val,mimic,Atelectasis,7654,1444
+val,mimic,Calcification,0,0
+val,mimic,Cardiomegaly,7779,1385
+val,mimic,Clavicle fracture,0,0
+val,mimic,Consolidation,7779,318
+val,mimic,Edema,7511,773
+val,mimic,Emphysema,0,0
+val,mimic,Enlarged PA,0,0
+val,mimic,ILD,0,0
+val,mimic,Infiltration,0,0
+val,mimic,Lung Opacity,7789,1549
+val,mimic,Lung cavity,0,0
+val,mimic,Lung cyst,0,0
+val,mimic,Mediastinal shift,0,0
+val,mimic,Nodule/Mass,0,0
+val,mimic,Pleural effusion,7748,1577
+val,mimic,Pleural thickening,0,0
+val,mimic,Pneumothorax,7904,286
+val,mimic,Pulmonary fibrosis,0,0
+val,mimic,Rib fracture,0,0
+val,mimic,Other lesion,0,0
+val,mimic,COPD,0,0
+val,mimic,Lung tumor,0,0
+val,mimic,Pneumonia,7361,546
+val,mimic,Tuberculosis,0,0
+val,mimic,Other diseases,0,0
+val,mimic,No finding,7938,2947
+val,vindr,Aortic enlargement,1250,258
+val,vindr,Atelectasis,1250,20
+val,vindr,Calcification,1250,40
+val,vindr,Cardiomegaly,1250,195
+val,vindr,Clavicle fracture,1250,2
+val,vindr,Consolidation,1250,33
+val,vindr,Edema,1250,3
+val,vindr,Emphysema,1250,7
+val,vindr,Enlarged PA,1250,10
+val,vindr,ILD,1250,30
+val,vindr,Infiltration,1250,48
+val,vindr,Lung Opacity,1250,113
+val,vindr,Lung cavity,1250,3
+val,vindr,Lung cyst,1250,2
+val,vindr,Mediastinal shift,1250,13
+val,vindr,Nodule/Mass,1250,73
+val,vindr,Pleural effusion,1250,84
+val,vindr,Pleural thickening,1250,167
+val,vindr,Pneumothorax,1250,5
+val,vindr,Pulmonary fibrosis,1250,129
+val,vindr,Rib fracture,1250,1
+val,vindr,Other lesion,1250,97
+val,vindr,COPD,1250,3
+val,vindr,Lung tumor,1250,21
+val,vindr,Pneumonia,1250,77
+val,vindr,Tuberculosis,1250,63
+val,vindr,Other diseases,1250,363
+val,vindr,No finding,1250,884
+test,mimic,Aortic enlargement,0,0
+test,mimic,Atelectasis,7191,1244
+test,mimic,Calcification,0,0
+test,mimic,Cardiomegaly,7361,1257
+test,mimic,Clavicle fracture,0,0
+test,mimic,Consolidation,7388,286
+test,mimic,Edema,7101,755
+test,mimic,Emphysema,0,0
+test,mimic,Enlarged PA,0,0
+test,mimic,ILD,0,0
+test,mimic,Infiltration,0,0
+test,mimic,Lung Opacity,7408,1512
+test,mimic,Lung cavity,0,0
+test,mimic,Lung cyst,0,0
+test,mimic,Mediastinal shift,0,0
+test,mimic,Nodule/Mass,0,0
+test,mimic,Pleural effusion,7349,1502
+test,mimic,Pleural thickening,0,0
+test,mimic,Pneumothorax,7480,365
+test,mimic,Pulmonary fibrosis,0,0
+test,mimic,Rib fracture,0,0
+test,mimic,Other lesion,0,0
+test,mimic,COPD,0,0
+test,mimic,Lung tumor,0,0
+test,mimic,Pneumonia,6935,465
+test,mimic,Tuberculosis,0,0
+test,mimic,Other diseases,0,0
+test,mimic,No finding,7514,2849
+test,vindr,Aortic enlargement,2500,515
+test,vindr,Atelectasis,2500,32
+test,vindr,Calcification,2500,68
+test,vindr,Cardiomegaly,2500,373
+test,vindr,Clavicle fracture,2500,6
+test,vindr,Consolidation,2500,56
+test,vindr,Edema,2500,1
+test,vindr,Emphysema,2500,11
+test,vindr,Enlarged PA,2500,21
+test,vindr,ILD,2500,68
+test,vindr,Infiltration,2500,110
+test,vindr,Lung Opacity,2500,232
+test,vindr,Lung cavity,2500,12
+test,vindr,Lung cyst,2500,2
+test,vindr,Mediastinal shift,2500,23
+test,vindr,Nodule/Mass,2500,145
+test,vindr,Pleural effusion,2500,165
+test,vindr,Pleural thickening,2500,317
+test,vindr,Pneumothorax,2500,19
+test,vindr,Pulmonary fibrosis,2500,265
+test,vindr,Rib fracture,2500,15
+test,vindr,Other lesion,2500,187
+test,vindr,COPD,2500,4
+test,vindr,Lung tumor,2500,46
+test,vindr,Pneumonia,2500,159
+test,vindr,Tuberculosis,2500,121
+test,vindr,Other diseases,2500,729
+test,vindr,No finding,2500,1768
